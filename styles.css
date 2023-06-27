@@ -56,7 +56,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: repeat;
-    height: 200vh;
+    height: 250vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -107,6 +107,38 @@
 .contactDetails a {
   color: white;
   display: inline-block;
+}
+
+.personalInformation {
+  background-image: url("assets/matrix_1280.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 10px;
+}
+
+.personalInformation h3 {
+  color: white;
+  text-align: center;
+}
+
+.personalInformation p {
+  color: white;
+  text-align: left;
+  font-weight: 100;
+  letter-spacing: 1.3px;
+  margin: 0 25px;
+  white-space: break-spaces;
+}
+
+.personalInformation img {
+  width: 150px;
+  height: auto;
+  float: right;
 }
 
 .contactLinks {
